@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAQS</title>
+	<style>
+										/*  HEADER */
+		body
+		{
+			margin: 0;
+			padding: 0;
+			font-family: Arial;
+		}
+		.navbar
+		{
+			text-decoration: none;
+			padding: 5px 35px 10px 5px;
+			background-color: #D8D8D8;
+		}
+		.navbar ul li
+		{
+			float: left;
+			text-align: center;
+			padding: 5px 10px;
+			text-decoration: none;
+			list-style-type: none;
+		}
+		a:link, a:visited
+		{
+  			color: black;
+ 			text-align: center;
+ 			text-decoration: none;
+  			display: inline-block;
+		}
+		.btn a:visited
+		{
+			color: white;
+		}
+		.column
+		{
+ 			 float: right;
+ 			 width: 50%;
+ 			 padding: 10px;
+		}
+		.column1
+		{
+			padding-left: 150px;
+			float: left;
+		}
+		.row:after 
+		{
+  			content: "";
+  			display: table;
+  			clear: both;
+		}
+		button
+		{
+			padding: 15px;
+			width: 100%;
+			border-radius: 15px;
+			background-color: tomato;
+			font-weight: bolder;
+			cursor: pointer;
+		}
+		.span
+		{
+			color: red;
+		}	
+								/*  END OF THE HEADER */
+
+									/* MIDDLE PART */
+		* {
+  			box-sizing: border-box;
+		}
+		.page
+		{
+			margin: 5px 250px 0 250px;
+			border: 2px solid black;
+			padding: 25px;
+			box-shadow: inset 0 0 10px #000000;
+		}
+		.table
+		{
+			border: 1px solid black;
+			padding: 10px;
+			margin: 2px 10px 2px 10px;
+			text-align: left;
+		}
+		p
+		{
+			line-height: 100%;
+			cursor: pointer;
+		}
+		article
+		{
+			border: 0.3px solid black;
+			padding: 20px;
+			width: 930px;
+			border-radius: 25px;
+		}
+								/* END OF THE MIDDLE PART */
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		 <!-- jQuery code to show the working of hover() method -->
+        $(document).ready(function() { 
+            $("p").hover(function() { 
+                $(this).css("font-weight","800")
+            }, function() { 
+                $(this).css("font-weight","bold")
+            }); 
+            $("button").hover(function() { 
+                $(this).css("font-weight","1000")
+            }, function() { 
+                $(this).css("font-weight","normal")
+            });
+            $("article").hover(function()
+            {
+            	$(this).css("box-shadow","2.5px 2.5px 25px #7f7f7f")
+            }, function(){
+            	$(this).css("box-shadow","5px 5px 25px white")
+            })
+        });
+	</script>
+</head>
+<body>
+								<!-- HEADER -->
+	<div class="navbar">
+		<div class="column1">
+			<h1><span class="span">Blood</span> Donation</h1>
+		</div>
+		<div class="row">
+			<div class="column">
+				<ul>
+					<li><button class="btn"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Full%20Project.html">Home</a></button></li>
+					<li><button class="btn"><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Blood Bank.html">Blood Banks</a></button></li>
+					<li><button class="btn"><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Privacy Policy.html">Privacy Policy</a></button></li>
+					<li><button class="btn"><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Contact Us.html">Contact US</a></button></li>
+					<li><button class="btn"><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\FAQS.html">FAQS</a></button></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+								<!-- END OF THE HEADER -->
+	<div class="page">
+		<h1 id="Back to Top">Frequently Asked Questions</h1>
+		<div class="table">
+			<b>
+			<p><a href="#1">1)	  What is blood? How much blood does a person have?</a></p>
+			<p><a href="#2">2)	  What is the composition of blood?</a></p>
+			<p><a href="#3">3)	  What are the functions of these components?</a></p>
+			<p><a href="#4">4)	  How is blood formed?</a></p>
+			<p><a href="#5">5)	  What is haemoglobin?</a></p>
+			<p><a href="#6">6)	  What are blood groups?</a></p>
+			<p><a href="#7">7)	  What is the importance of knowing the blood groups?</a></a></p>
+			<p><a href="#8">8)	  Why the Patient of 'A' Group blood is not allowed to receive 'B' Group blood? </a></p>
+			<p><a href="#9">9)	  Why are Rh negative and Rh positive incompatible?</a></p>
+			<p><a href="#10">10)	  What is a unit of blood?</a></p>
+			<p><a href="#11">11)	  Can blood of animals be transfused to human beings?</a></p>
+			<p><a href="#12">12)	  How long can blood be stored?</a></p>
+			<p><a href="#13">13)	  Can we separate blood into its components?</a></p>
+			<p><a href="#14">14)	  In which situations do patients need blood transfusion?</a></p>
+			<p><a href="#15">15)	  What happens to patients in transfusions with incompatible blood (mismatched blood)?</a></p>
+			<p><a href="#16">16)	  In which situations do people generally donate blood?</a></p>
+			<p><a href="#17">17)	  Who is a healthy donor?</a></p>
+			<p><a href="#18">18)	  Does a donor need to do anything special before donation?</a></p>
+			<p><a href="#19">19)	  How long does the donation take?</a></p>
+			<p><a href="#20">20)	  Does the needle hurt the entire time?</a></p>
+			<p><a href="#21">21)	  Does the donor suffer from any harmful effects after donating blood donation?</a></p>
+			<p><a href="#22">22)	  Does a donor need to rest after donating blood?</a></p>
+			<p><a href="#23">23)	  Can a donor work after donating blood?</a></p>
+			<p><a href="#24">24)	  What special diet should a donor follow after giving blood?</a></p>
+			<p><a href="#25">25)	  How long will it take for the body to replenish the blood?</a></p>
+			<p><a href="#26">26)	  How frequently a donor can donate blood?</a></p>
+			<p><a href="#27">27)	  Do any diseases debar a donor from giving blood?</a></p>
+			<p><a href="#28">28)	  Are there any other benefits of blood donation?</a></p>
+			 </b>
+
+			 <br>
+			 <br>
+			 <br>
+
+			 <article>
+				 <b id="1">1) 	What is blood? How much blood does a person have?</b>
+				 <br>
+				 <br>
+				Blood is the red coloured fluid flowing continuously in our body's circulatory system. About 1/12th of the body weight of a healthy individual is blood. On an average there are about 5 - 6 litres of blood present.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="2">2) 	What is the composition of blood?</b>
+				 <br>
+				 <br>
+				Blood contains mainly a fluid called plasma in which are suspended cellular elements. Three types of cells - Red Blood Cells or RBC's, White Blood Cells or WBC's and tiny platelets form the cellular element.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			</article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="3">3) 	What are the functions of these components?</b>
+				 <br>
+				 <br>
+				(a) Plasma: acts as a vehicle to carry many substances like glucose, fats, and proteins, enzymes, and hormones etc., in addition to the blood cells.
+				<br>
+				(b) Red Cells: carry oxygen from lungs to various body tissues and take back carbon dioxide from the cells and tissues to be thrown out of body in the form of exhaled air.
+				<br>
+				(c) White cells: mainly act as body scavengers and guards. They help in the immune system of the body and act as defence forces of the body killing the bacteria or any other organisms entering the body.
+				<br>
+				(d) Platelets: help in the clotting and coagulation of blood. We have experienced in our life that whenever we get injured the bleeding stops after a few minutes. This is brought about by a mechanism called clotting of blood in which platelets plays a very vital role.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="4">4) 	How is blood formed?</b>
+				 <br>
+				 <br>
+				Blood consists of RBCs, WBCs, platelets suspended in plasma. In early embryonic life blood cells are formed in liver and spleen. But by the fifth month the Haemopoisis (i.e., formation of blood.) occurs in bone marrow and lymphatic tissues. At birth the entire bone marrow is red and active. Gradually as the child grows, the marrow remains red only in the flat bones and vertebrae. The RBC, grannulocytes of WBC and platelets are produced mainly by bone marrow. The lymphocytes, monocytes, plasma cells are formed in the lymphoid and Reticulo Endothelial tissues. The orderly proliferation of the cells in the bone marrow and their release into circulation is carefully regulated according to the needs of body. Every day, new blood cells are being produced in the bone marrow and every day old cells are dying and being removed from the body. Red blood cells have a life of 120 days and when it becomes old and senile it is thrown out. White cells live for a few days and platelets for a few hours. Thus daily new cells are added to the circulation and old are removed from it.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="5">5) 	What is haemoglobin?</b>
+				 <br>
+				 <br>
+				Haemoglobin is a substance present in the red cells. It is helpful in carrying oxygen and carbon dioxide. On an average, in a healthy male it should be between 14 - 16 gm % and in a female it should be about 12 - 14 gm %. This is also being daily synthesized and the new is replacing the old stock.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="6">6) 	What are blood groups?</b>
+				 <br>
+				 <br>
+				Every individual has two types of blood groups. The first is called the ABO - grouping and the second type is called Rh - grouping.
+				In the ABO - group there are four categories namely A Group, B Group, O Group and AB Group.
+				In the Rh - Group either the individual is Rh-positive, or Rh-negative. Rh is a factor called as Rhesus factor that has come to us from Rhesus monkeys.<br>
+				Thus each and very human being will fall in one of the following groups.<br>
+				A positive or A negative<br>
+				B positive or B negative<br>
+				O positive or O negative<br>
+				AB positive or AB negative<br>
+				There are also some sub groups as well as a few other classifications.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="7">7) 	What is the importance of knowing the blood groups?</b>
+				 <br>
+				 <br>
+				 
+				For all practical and routine purposes, it is ideal to transfuse to the patient the same group of blood which he belongs to. It is only under very dire emergency that we take O group as universal donor and AB groups as universal recipient. Under no circumstances O group can get any other blood except O. Similarly A group patient cannot be given B group blood and vice versa.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="8">8) 	Why the Patient of 'A' Group blood is not allowed to receive 'B' Group blood?</b>
+				 <br>
+				 <br>
+				This is due to the reason that, the blood of A Group people contains anti - B antibodies. In B group people there are anti - An antibodies. If we give A group blood to a B group patient, it is bound to be incompatible and will result in serious consequences.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 
+			 <article>
+				 <b id="9">9) 	Why are Rh negative and Rh positive incompatible?</b>
+				 <br>
+				 <br>
+				A patient with Rh-negative blood cannot be given Rh-positive blood as the antigen-antibody REACTIONS WILL RESULT IN SEVERE consequences.
+				In cases where a woman has Rh negative and her husband has Rh positive, the first child with Rh positive may be normal. But subsequently the woman may not conceive or may have repeated abortions. There may be intra uterine fetal death. If the child born is alive, it will suffer from a fatal disease called "Erythroblastosis Foetalis". Now mothers can be given an injection of anti-D within 24 hours of the delivery of a Rh-positive child and thus protect the next baby from this catastrophe.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="10">10) 	What is a unit of blood?</b>
+				 <br>
+				 <br>
+				Blood is collected in plastic bags which contain a watery fluid which prevents blood from getting coagulated. On an average we draw about 450 ml. of blood from a person, depending on the weight of the donor. This blood, plus the amount of anti coagulant present in the bottle or bag, is known as one unit of blood.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="11">11) 	Can blood of animals be transfused to human beings?</b>
+				 <br>
+				 <br>
+				Scientists have tried a lot but so far they are not successful. Only the blood of a human being can be transfused to a human patient.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			</article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="12">12) 	How long can blood be stored?</b>
+				 <br>
+				 <br>
+				Whole blood can be stored up to 35 days, when kept in CPDA anti coagulant solution and refrigerated at 2 - 4 deg C. But the demand is so great that blood hardly ever remains in storage for so long and is used much before expiry.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="13">13) 	Can we separate blood into its components?</b>
+				 <br>
+				 <br>
+				 
+				Yes! Now with technical advancements, we can make components of blood and store them. For example, plasma can be separated from whole blood and stored up to one year in frozen state at -80 deg C temperature or below. This is called Fresh Frozen Plasma. Similarly there are other components like Platelet Rich Plasma; Platelet Concentrate (can be stored as a life saving measure upto 5 days now at 22- 24 degrees C in a platelet incubator and agitator); Cryoprecipitate (which is very useful in treating bleeding disorders due to the deficiency of factor VIII and IX); Factor VIII and IX; Albumin, Globulin and many others.
+				<br>
+				In most progressive blood banks more than 85 % of the blood collected is converted into components and stored. This is because many patients do not require whole blood. For example, a patient whose haemoglobin is low and is therefore anemic, may just require Packed Cells i.e. only red cells; a patient with burns may need more of plasma than cells; a patient with hemophilia may require only Factor VIII.
+				<br>
+				Now with the advent of Cell-separators we can directly draw a particular component from the donor, while rest of the blood constituents go back to the donor.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="14">14) 	In which situations do patients need blood transfusion?</b>
+				 <br>
+				 <br>
+				There are many situations in which patients need blood to stay alive:
+				<br>
+				• A patient needs blood after a major accident in which there is loss of blood.
+				<br>
+				• No major surgery is performed without blood as there is bound to be blood loss.
+				<br>
+				• On an average, for every open heart surgery about 6 units of blood is required.
+				<br>
+				• In miscarriage or childbirth cases the patient may need large amount of blood to be transfused for saving her life and also the child's.
+				<br>
+				• For patients with blood diseases like severe Anaemias especially Aplastic Anaemias, Leucaemias (blood cancer), Haemophilia (bleeding disorder), Thalassemia etc. repeated blood transfusions are the only solution.
+				<br>
+				• In many other situations like poisoning, drug reactions, shock, burns, blood transfusion is the only way to save precious human life<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="15">15) 	What happens to patients in transfusions with incompatible blood (mismatched blood)?</b>
+				 <br>
+				 <br>
+				The following symptoms may occur after only a few ml. of blood have been given: 1. Patient complains of shivering, restlessness, nausea, and vomiting. There is precardial and lumbar pain.
+				<br>
+				2. Cold, clammy skin with cyanosis.
+				<br>
+				3. Pulse rate increases, respiratory rate increases. Temperature increases to 38 to 40 deg C. [101 to 105 F].
+				<br>
+				4. Blood pressure falls and patient passes into a state of shock.
+				<br>
+				5. Haemoglobinaemia, haemoglobinurea (urine turns red); oliguria (urine becomes scanty or the urinary output is reduced) and anuria (total output of urine becomes 200 ml. a day)
+				<br>
+				6. Jaundice appears after a few hours and in some cases anuria persists and uremia develops. This may lead to death.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a><p>
+			</article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="16">16) 	In which situations do people generally donate blood?</b>
+				 <br>
+				 <br>
+				There are three types of blood donors: -
+				<br>
+				(1) PROFESSIONAL DONORS - They sell their blood, which is of very poor quality and can transmit very dangerous diseases to the recipient. It is illegal to take blood from any professional donor.
+				<br>
+				(2) REPLACEMENT DONATION - Healthy relatives and friends of the patient give their blood, of any group, to the blood bank. In exchange, the required number of units in the required blood group is given.
+				<br>
+				3) VOLUNTARY DONATION- Here a donor donates blood voluntarily. The blood can be used for any patient even without divulging the identity of the donor. This is the best type of blood donation where a motivated human being gives blood in an act of selfless service.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="17">17) 	Who is a healthy donor?</b>
+				 <br>
+				 <br>
+				Any person within the age group of 18 - 55 years with a body weight as minimum 45 kgs, and having haemoglobin content as minimum 12.5 gm%.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="18">18) 	Does a donor need to do anything special before donation?</b>
+				 <br>
+				 <br>
+				The donor should eat at regular mealtimes and drink plenty of fluids.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			</article>
+			 <br>
+			 <br>
+			 <br>
+
+			 <article>
+				<b id="19">19) 	How long does the donation take?</b>
+				 <br>
+				 <br>
+				The procedure is done by skilled, specially trained technicians and takes three to eight minutes. However, from start to finish (filling form, post donation rest etc) the entire process should take upwards of 35 minutes.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="20">20) 	Does the needle hurt the entire time?</b>
+				 <br>
+				 <br>
+				 
+				There may be a little sting when the needle is inserted, but there should be no pain during the donation.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="21">21) 	Does the donor suffer from any harmful effects after donating blood donation?
+				 </b>
+				 <br>
+				 <br>
+				Absolutely not, rather a donor after having given blood voluntarily gets a feeling of great pleasure, peace and bliss. Soon, within a period of 24 - 48 hours, the same amount of new blood gets formed in the body, which helps the donor in many ways. His own body resistance improves, the circulation improves, and he himself feels healthier than before<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			</article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="22">22) 	Does a donor need to rest after donating blood?</b>
+				 <br>
+				 <br>
+				 
+				Yes. The donor needs rest, preferably lying down, so that the amount of blood that has been donated soon gets poured into the circulation from the body pools in a natural way. The donor should take it easy for about 15 - 20 minutes.
+				Back to Top<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="23">23) 	Can a donor work after donating blood?</b>
+				 <br>
+				 <br>
+				Of course! Routine work is absolutely fine after the initial rest. Rigorous physical work should be avoided for a few hours.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="24">24) 	What special diet should a donor follow after giving blood?</b>
+				 <br>
+				 <br>
+				After resting for a while a donor is given some liquid (fluid) to take. It may be a cup of coffee or milk or fruits juice alongwith a few biscuits or fruit. The donor needs no other special diet. A routine balanced diet is adequate. The donor's blood gets replenished within 24 - 48 hours.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+
+			 <article>
+				 <b id="25">25) 	How long will it take for the body to replenish the blood?</b>
+				 <br>
+				 <br>
+				The body replaces blood volume or plasma within 24 hours. Red cells need about four to eight weeks for complete replacement.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			</article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="26">26) 	How frequently a donor can donate blood?</b>
+				 <br>
+				 <br>
+				Three months time between donations is a very safe interval.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			 </article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="27">27) 	Do any diseases debar a donor from giving blood?</b>
+				 <br>
+				 <br>
+				 
+				Yes, if the donor has suffered from any of the under-mentioned diseases: -<br>
+				Fever: He should not have suffered from fever for the past 15 days.<br>
+				Jaundice: A donor should not have his blood tested positive for AUSTRALIA ANTIGEN.<br>
+				Blood transmitted diseases: Like Syphilis, Malaria, Filaria etc. debar a donor from donating blood till he is treated and is free from them.<br>
+				Drugs: If a donor is taking drugs like Aspirin, anti-hypertensive, anti-diabetics, hormones, corticosteroids etc., he is unfit to donate blood.<br>
+				AIDS. No person having HIV positive can be allowed to donate blood.<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			</article>
+			 <br>
+			 <br>
+			 <br>
+			 
+			 <article>
+				 <b id="28">28) 	Are there any other benefits of blood donation?</b>
+				 <br>
+				 <br>
+				 
+				Yes, blood donation is a noble, selfless service! It gives the donor a feeling of joy and contentment. Also this is an expression of love for Mankind, as blood knows no caste, colour, creed, religion or race, country, continent or sex.
+				<br>
+				<p><a href="#Back to Top" style="color: tomato; margin-left: 740px;">Back to Top...</a></p>
+			</article>
+			</div>
+		</div>
+</body>
+</html>

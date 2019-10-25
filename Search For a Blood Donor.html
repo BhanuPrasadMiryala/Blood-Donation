@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search For a Blood Donor</title>
+	<style>
+										/* HEADER */
+		body
+		{
+			margin: 0;
+			padding: 0;
+			font-family: Arial;
+		}
+		.navbar
+		{
+			text-decoration: none;
+			padding: 5px 35px 10px 5px;
+			background-color: #D8D8D8;
+		}
+		.navbar ul li
+		{
+			float: left;
+			text-align: center;
+			padding: 5px 10px;
+			text-decoration: none;
+			list-style-type: none;
+		}
+		a:link, a:visited
+		{
+  			color: white;
+ 			text-align: center;
+ 			text-decoration: none;
+  			display: inline-block;
+		}
+
+		.column
+		{
+ 			 float: right;
+ 			 width: 50%;
+ 			 padding: 10px;
+		}
+		.column1
+		{
+			padding-left: 150px;
+			float: left;
+		}
+		.row:after 
+		{
+  			content: "";
+  			display: table;
+  			clear: both;
+		}
+		button
+		{
+			padding: 15px;
+			width: 100%;
+			border-radius: 15px;
+			background-color: tomato;
+			font-weight: bolder;
+		}
+		.span
+		{
+			color: red;
+		}
+								/* END OF THE HEADER CSS */
+									/* MIDDLE CSS	*/
+		* {
+  			box-sizing: border-box;
+		}
+		header
+		{
+			color: black;
+			margin: 10px;
+			text-align: center;
+			font-size: 1.8em;
+			font-weight: thin;
+		}
+		#main-doc header
+		{
+			text-align: left;
+			margin: 0px;		}
+		#main-doc
+		{
+			position: absolute;
+			margin-left: 310px;
+			padding: 20px;
+			margin-bottom: 0.9em;
+		}
+		.box
+   `	{
+			margin-left: 200px;
+		}
+		.btn
+		{
+			width: 150px;
+			margin-left: 250px;
+		}
+		#navbar
+		{
+			position: absolute;
+			min-width: 290px;
+			width: 300px;
+			height: 650px;
+			border-right: solid;
+			border-color: rgba(0, 22, 22, 0.4);
+			background-color: #FFA781;
+		}
+		#navbar ul
+		{
+			height: 88%;
+			padding: 0;
+		}
+		#navbar li
+		{
+			color: #4d4e53;
+			border-top: 1px solid black;
+			list-style: none;
+			position: relative;
+			width: 100%;
+		}
+		#navbar a
+		{
+			display: block;
+			padding: 5px 30px;
+			color: #4d4e53;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		#navbar a:hover
+		{
+			color: #D9514EFF;
+		}
+		article
+		{
+			padding: 20px;
+			width: 800px;
+			border-radius: 25px;
+		}
+								/* END OF THE MIDDLE PART */
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		 <!-- jQuery code to show the working of hover() method -->
+        $(document).ready(function() { 
+            $("#navbar p").hover(function() { 
+                $(this).css("color", "white");
+                $(this).css("font-weight","800")
+            }, function() { 
+                $(this).css("color", "white"); 
+                $(this).css("font-weight","normal")
+            }); 
+            $("button").hover(function() { 
+                $(this).css("font-weight","1000")
+            }, function() { 
+                $(this).css("font-weight","normal")
+            });
+              $(".btn").mouseover(function(){
+            	$(".btn").css("box-shadow","5px 5px 5px #323232");
+            });
+            $(".btn").mouseout(function(){
+            	$(".btn").css("box-shadow","5px 5px 5px 5px white");
+            });
+            $("article").hover(function()
+            {
+            	$(this).css("box-shadow","2.5px 2.5px 25px #7f7f7f")
+            }, function(){
+            	$(this).css("box-shadow","5px 5px 25px white")
+            })
+        });
+	</script>
+	<script type="text/javascript">
+		function myfunction() {
+			alert("Success recorded");
+		}
+	</script>
+</head>
+<body>
+							<!-- HEADER -->
+	<div class="navbar">
+		<div class="column1">
+			<h1><span class="span">Blood</span> Donation</h1>
+		</div>
+		<div class="row">
+			<div class="column">
+				<ul>
+					<li><button><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Full%20Project.html">Home</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Blood Bank.html">Blood Banks</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Privacy Policy.html">Privacy Policy</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Contact Us.html">Contact US</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\FAQS.html">FAQS</a></button></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+								<!-- END OF THE HEADER -->
+
+
+									<!-- MIDDLE PART -->
+	<nav id="navbar">
+		<header style="font-weight: bolder; padding:10px;">CONTENTS</header>
+			<ul>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Edit%20Page.html">Edit Profile</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Register%20as%20a%20Blood%20Donor.html">Register as a Blood Donor</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Search%20For%20a%20Blood%20Donor.html">Search for a Blood Donor</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Post%20a%20Need%20for%20Blood.html">Post a Need For Blood</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Terms%20and%20Conditions.html">Terms and Conditions</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Tell%20a%20Friend.html">Tell a Friend</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Bulk%20Registration.html">Bulk Registration</a></p>
+				</li>
+			</ul>
+	</nav>
+
+	<main id="main-doc">
+		<section class="main-section">
+			<header>Search for Blood Donors</header>
+			<br>
+			<article>
+				<tr>
+					<br>
+					<td>Blood Group*</td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<select>
+						<option>Select One</option>
+						<option>A+</option>
+						<option>A-</option>
+						<option>AB+</option>
+						<option>AB-</option>
+						<option>B+</option>
+						<option>B-</option>
+						<option>O+</option>
+						<option>O-</option>
+					</select>
+				</tr>
+
+				<br>
+				<br>
+				
+				<tr>
+					<td>Place*</td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<select>
+						<option>Select One</option>
+						<option>HYDERABAD</option>
+						<option>SECUNDERABAD</option>
+						<option>Others</option>
+						<option>Dist: Adilabad</option>
+					</select>
+				</tr>
+				
+				<br>
+				<br>
+			
+				<center>
+					<button class="btn" onclick="myfunction()">Search</button>
+				</center>
+				<br>
+				<br>
+				<br>
+				<br>
+			</article>
+		</section>
+	</main>
+</body>
+</html>

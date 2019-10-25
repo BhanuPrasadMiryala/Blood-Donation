@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<style type="text/css">
+											/* HEADER */
+		body
+		{
+			margin: 0;
+			padding: 0;
+			font-family: Arial;
+		}
+		.navbar
+		{
+			text-decoration: none;
+			padding: 5px 35px 10px 5px;
+			background-color: #D8D8D8;
+		}
+		.navbar ul li
+		{
+			float: left;
+			text-align: center;
+			padding: 5px 10px;
+			text-decoration: none;
+			list-style-type: none;
+		}
+		a:link, a:visited
+		{
+  			color: white;
+ 			text-align: center;
+ 			text-decoration: none;
+  			display: inline-block;
+		}
+
+		.column
+		{
+ 			 float: right;
+ 			 width: 50%;
+ 			 padding: 10px;
+		}
+		.column1
+		{
+			padding-left: 150px;
+			float: left;
+		}
+		.row:after 
+		{
+  			content: "";
+  			display: table;
+  			clear: both;
+		}
+		button
+		{
+			padding: 15px;
+			width: 100%;
+			border-radius: 15px;
+			background-color: tomato;
+			font-weight: bolder;
+		}
+		.span
+		{
+			color: red;
+		}
+									/* END OF THE HEADER CSS */
+
+									    /* MIDDLE PART */
+		* {
+  			box-sizing: border-box;
+		}
+		header
+		{
+			color: black;
+			margin: 10px;
+			text-align: center;
+			font-size: 1.8em;
+			font-weight: thin;
+		}
+		#main-doc header
+		{
+			text-align: left;
+			margin: 0px;
+		}
+		#main-doc
+		{
+			position: absolute;
+			margin-left: 310px;
+			padding: 20px;
+			margin-bottom: 0.9em;
+			margin-right: 10px;
+		}
+		article
+		{
+			margin-right: 10px;
+			padding-left: 20px;
+			padding: 20px;
+			width: 1150px;
+			border-radius: 25px;
+		}
+		#navbar
+		{
+			position: absolute;
+			min-width: 290px;
+			width: 300px;
+			height: 890px;
+			border-right: solid;
+			border-color: rgba(0, 22, 22, 0.4);
+			background-color: #FFA781;
+		}
+		#navbar ul
+		{
+			height: 88%;
+			padding: 0;
+		}
+		#navbar li
+		{
+			color: #4d4e53;
+			border-top: 1px solid black;
+			list-style: none;
+			position: relative;
+			width: 100%;
+		}
+		#navbar a
+		{
+			display: block;
+			padding: 5px 30px;
+			color: #4d4e53;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		#navbar a:hover
+		{
+			color: #D9514EFF;
+		}	
+									/* END OF THE MIDDLE PART */
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		 <!-- jQuery code to show the working of hover() method -->
+        $(document).ready(function() { 
+            $("#navbar p").hover(function() { 
+                $(this).css("font-weight","800")
+            }, function() {  
+                $(this).css("font-weight","normal")
+            }); 
+            $("button").hover(function() { 
+                $(this).css("font-weight","1000")
+            }, function() { 
+                $(this).css("font-weight","normal")
+            });
+            $("article").hover(function()
+            {
+            	$(this).css("box-shadow","2.5px 2.5px 25px #7f7f7f")
+            }, function(){
+            	$(this).css("box-shadow","5px 5px 25px white")
+            })
+        });
+	</script>
+</head>
+<body>
+										<!-- HEADER -->
+	<div class="navbar">
+		<div class="column1">
+			<h1><span class="span">Blood</span> Donation</h1>
+		</div>
+		<div class="row">
+			<div class="column">
+				<ul>
+					<li><button><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Full%20Project.html">Home</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Blood Bank.html">Blood Banks</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Privacy Policy.html">Privacy Policy</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Contact Us.html">Contact US</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\FAQS.html">FAQS</a></button></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+								<!-- END OF THE HEADER -->
+
+
+									<!-- MIDDLE PART -->
+	<nav id="navbar">
+		<header style="font-weight: bolder; padding:10px;">CONTENTS</header>
+			<ul>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Edit%20Page.html">Edit Profile</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Register%20as%20a%20Blood%20Donor.html">Register as a Blood Donor</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Search%20For%20a%20Blood%20Donor.html">Search for a Blood Donor</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Post%20a%20Need%20for%20Blood.html">Post a Need For Blood</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Terms%20and%20Conditions.html">Terms and Conditions</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Tell%20a%20Friend.html">Tell a Friend</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Bulk%20Registration.html">Bulk Registration</a></p>
+				</li>
+			</ul>
+	</nav>
+
+
+	<main id="main-doc">
+		<section class="main-section">
+			<header>Blood Banks in Hyderabad & Secunderabad</header>
+			<br>
+			<article>
+				<ul>
+					<li>
+							Social Service Blood Bank<br>
+					+(91)-(40)-,64606048,64505032<br>
+					+(91)-9985409444<br>
+					9-1-127/1/D/1, Adj To Madhava Nursing Home, <br>
+					Lane Opp St Marys Church, S D Road, Hyderabad - 500003
+					</li>
+					<br>
+					<li>
+						Habib Mustafa Khan Blood Bank<br>
+					+(91)-9247320088,9291506708<br>
+					9-1-127/1/D/1, Opp St Mary`s Church, Adj To<br> Madhava Nursing Home Lane, S D Road, Hyderabad - 500003
+					</li>
+					<br>
+					<li>
+						Chiranjeevi Eye & Blood Bank<br>
+					+(91)-(40)-23554849,23559555,23359066<br>
+					+(91)-9246547914<br>
+					+(91)-(40)-23555005,23552925<br>
+					admin@cconline.in<br>
+					www.admin@cconline.in<br>
+					Near Check Post, Jubilee Hills, Hyderabad - 500034
+					</li>
+					<br>
+					<li>
+						Gandhi Hospital<br>
+					+(91)-(40)-27505566,27510053,27510052,27510051<br>
+					Main Road, Musheerabad, Hyderabad - 500048
+					</li>
+					<br>
+					<li>
+						Central Blood Bank<br>
+					+(91)-(40)-27567892,27567893,27567894<br>
+					Narayanguda, Hyderabad - 500029
+					</li>
+					<br>
+					<li>
+						Institute Of Transfussion Medicine & Research<br>
+					+(91)-(40)-23300352,23328956,23319491<br>
+					Nims Backside Compound, Road No 1, Banjara<br> Hills, Hyderabad - 500034
+					</li>
+					<br>
+					<li>
+						Osmania General Hospital<br>
+					+(91)-(40)-24600121,24600122,24600123,24600124<br>
+					Near Afzalgunj Bus Stop, Afzalgunj, Hyderabad - 500012
+					</li>
+					<br>
+					<li>
+						Red Cross Blood Bank<br>
+					+(91)-(40)-27633087,27627973<br>
+					D No 1-9-310, Vidya Nagar, Hyderabad - 500044
+					</li>
+				</ul>
+			</article>
+		</section>
+	</main>
+							<!-- END OF THE MIDDLE PART -->
+</body>
+</html>
