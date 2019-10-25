@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BLOOD DONATION</title>
+	<style>	
+		img
+		{
+			width: 600px;
+			height: 600px;
+			opacity: 0.2;
+			margin-left: 700px;
+			margin-top: 140px;
+			position: absolute;
+		}
+								/* HEADER */
+		body
+		{
+			margin: 0px;
+			padding: 0px;
+			font-family: Arial;
+		}
+		.navbar
+		{
+			text-decoration: none;
+			padding: 5px 35px 10px 5px;
+			background-color: #D8D8D8;
+		}
+		.navbar ul li
+		{
+			float: left;
+			text-align: center;
+			padding: 5px 10px;
+			text-decoration: none;
+			list-style-type: none;
+		}
+		a:link, a:visited
+		{
+  			color: white;
+ 			text-align: center;
+ 			text-decoration: none;
+  			display: inline-block;
+		}
+
+		.column
+		{
+ 			 float: right;
+ 			 width: 50%;
+ 			 padding: 10px;
+		}
+		.column1
+		{
+			padding-left: 150px;
+			float: left;
+		}
+		.row:after 
+		{
+  			content: "";
+  			display: table;
+  			clear: both;
+		}
+		button
+		{
+			padding: 15px;
+			width: 100%;
+			border-radius: 15px;
+			background-color: tomato;
+			font-weight: bolder;
+		}
+		.span
+		{
+			color: red;
+		}	
+								/* END OF THE HEADER */
+
+
+
+									/* MIDDLE PART */
+			* {
+  			box-sizing: border-box;
+		}
+		
+		header
+		{
+			color: black;
+			margin: 10px;
+			text-align: center;
+			font-size: 1.8em;
+			font-weight: thin;
+		}
+		#main-doc header
+		{
+			text-align: left;
+			margin: 0px;
+		}
+		#main-doc
+		{
+			position: absolute;
+			margin-left: 310px;
+			padding: 20px;
+			margin-bottom: 0.9em;
+		}
+		#navbar
+		{
+			position: absolute;
+			min-width: 290px;
+			width: 300px;
+			height: 650px;
+			border-right: solid;
+			border-color: rgba(0, 22, 22, 0.4);
+			background-color: #FFA781;
+		}
+		#navbar ul
+		{
+			height: 88%;
+			padding: 0;
+		}
+		#navbar li
+		{
+			color: #4d4e53;
+			border-top: 1px solid black;
+			list-style: none;
+			position: relative;
+			width: 100%;
+		}
+		#navbar a
+		{
+			display: block;
+			padding: 5px 30px;
+			color: #4d4e53;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		#navbar a:hover
+		{
+			color: #D9514EFF;
+		}
+
+		.column2
+		{
+ 		 float: left;
+ 		 width: 50%;
+ 		 padding: 20px;
+ 		 border: 1px solid black; 
+ 		 border-radius: 25px;
+ 		}
+		.row:after 
+		{
+ 		 content: "";
+ 		 display: table;
+ 		 clear: both;
+		}
+		article
+		{
+			padding: 20px;
+			width: 1150px;
+			border-radius: 25px;
+		}
+									/* END OF THE MIDDLE PART */
+
+
+
+
+											/* FOOTER */
+		.body
+		{
+			background-color: black;
+			padding:100px;
+			color: white;
+		}
+		.h1
+		{
+			font-size: 45px;
+			font-weight: bolder; 
+			font-family: Arial;
+			max-width: 290px;
+			width: 300px;
+		}
+		span
+		{
+			color: red;
+		}
+		.content
+		{
+		
+			font-size: 20px;
+		}
+		hr
+		{
+			opacity: 0.4;
+			margin: 15px;
+		}
+		input
+		{
+			padding: 10px;
+			color: white;
+			width: 225px;
+			border-radius: 12px;
+		}
+		.btn
+		{
+			background-color: tomato;
+			padding: 15px;
+			font-family: Arial;
+			border-radius: 15px;
+			width: 150px;
+		}
+		.column3
+		{
+			padding: 20px;
+		}
+		.top-container 
+		{
+  			padding-top:650px;
+ 			text-align: center;
+		}
+									/* END OF THE FOOTER */
+	</style>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		 <!-- jQuery code to show the working of hover() method -->
+        $(document).ready(function() { 
+            $("#navbar p").hover(function() { 
+                $(this).css("color", "white");
+                $(this).css("font-weight","800");
+            }, function() { 
+                $(this).css("color", "white"); 
+                $(this).css("font-weight","normal");
+            }); 
+            $("button").hover(function() { 
+                $(this).css("font-weight","1000");
+            }, function() {  
+                $(this).css("font-weight","normal");
+            });
+            $("article").hover(function()
+            {
+            	$(this).css("box-shadow","2.5px 2.5px 25px #7f7f7f")
+            }, function(){
+            	$(this).css("box-shadow","5px 5px 25px white")
+            })
+            $(".column2").hover(function()
+            {
+            	$(this).css("box-shadow","2.5px 2.5px 25px #7f7f7f")
+            }, function(){
+            	$(this).css("box-shadow","5px 5px 25px white")
+            })
+        });
+	</script>
+	<script type="text/javascript">
+		function message() {
+  			alert("🙏🙏Thanks For SUBSCRIBE🙏🙏");
+		}
+	</script>
+</head>
+<body>
+		<img src="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Images\giphy.gif">
+		<audio>
+			<source src="" type="">
+		</audio>
+												<!--HEADER -->
+	<div class="navbar">
+		<div class="column1">
+			<h1><span class="span">Blood</span> Donation</h1>
+		</div>
+		<div class="row">
+			<div class="column">
+				<ul>
+					<li><button><a href="C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Full%20Project.html">Home</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Blood Bank.html">Blood Banks</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Privacy Policy.html">Privacy Policy</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\Contact Us.html">Contact US</a></button></li>
+					<li><button><a href="C:\Users\BHANU PRASAD\Desktop\Blood Donation\Navbar\FAQS.html">FAQS</a></button></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+									<!--END OF THE HEADER -->
+						 			  <!--MIDDLE PART -->
+
+	<nav id="navbar">
+		<header style="font-weight: bolder; padding:10px;">CONTENTS</header>
+			<ul>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Edit%20Page.html">Edit Profile</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Register%20as%20a%20Blood%20Donor.html">Register as a Blood Donor</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Search%20For%20a%20Blood%20Donor.html">Search for a Blood Donor</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Post%20a%20Need%20for%20Blood.html">Post a Need For Blood</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Terms%20and%20Conditions.html">Terms and Conditions</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Tell%20a%20Friend.html">Tell a Friend</a></p>
+				</li>
+				<li>
+					<p class="p"><a href="file:///C:/Users/BHANU%20PRASAD/Desktop/Blood%20Donation/Navbar/Bulk%20Registration.html">Bulk Registration</a></p>
+				</li>
+			</ul>
+	</nav>
+
+	<main id="main-doc">
+		<section class="main-section">
+			<header>Hyderabad Blood Donors</header>
+			<p>A Voluntary Blood Donors Database</p>
+			<article>
+				<h1>Welcome To Hyderabad Blood Donors</h1>
+				<p>
+					Every Year Thousands of units of blood is required in and around Hyderabad & Secunderabad. HyderabadBloodDonors.org is an online platform where donors and recipients or patients could meet together. Our charitable blood donors donate blood for emergency need, the needy and natural calamities.
+				</p>
+				<p>
+					HyderabadBloodDonors.org which is under the aegis of  Lions Club Of  Secunderabad  Pearls is a non-profit, non-commercial online boundary of social dedication which is a device to use the power of the Internet to help common people and does not deal in blood nor is it a blood bank.
+				</p>
+			</article>
+		</section>
+		<br>
+		<div class="row">
+  			<div class="column2">
+    			<h2>Facts About Blood donation</h2>
+    			<ul>
+					<li>GIVING BLOOD IS SAFE!</li>
+					<li>GIVING BLOOD IS EASY!</li>
+					<li>GIVING BLOOD ID FAST!</li>
+					<li>GIVING BLOOD SAVES THE LIVES OF OTHERS!</li>
+					<li>BLOOD DONATIONS COULD SAVE YOUR LIFE ALSO!</li>
+				</ul>
+  			</div>
+		</div>
+		<br>
+		<b>Blood donation hardly makes any difference in terms of health of the donor, but it certainly makes a difference in the life of a patient. Register yourself, spread happiness across many lives.</b>
+	</main>						   
+										<!-- FOOTER-->
+	<div class="top-container">
+		<div class="body">
+			<center>
+			<h1 class="h1"><span>Blood</span> <br>Donation</h1>
+			<div class="content">
+				<p>We are world largest and trustful blood donation center. We have been working since 2000 with a prestigious vision to helping patient to provide blood. We are working all over the world, organizing blood donation campaign to grow awareness among the people to donate blood.</p>
+			</div>
+			<hr>
+			<div class="column3">
+				<h1>SUBSCRIBE US</h1>
+				<p>Sign for regular newsletter and stay up to date with our latesh news.</p>
+				<input type="text" name="Email" placeholder="Enter Your Email">
+				<br>
+				<br>
+				<button class="btn" onclick="message()">SUBSCRIBE NOW</button>
+			</div>
+
+			<hr>
+			<p>Copyright &copy;A Blood Donation  2019, All Right Reserved- By Bhanu Prasad</p>
+			</center>
+		</div>
+	</div>
+</body>
+</html>
